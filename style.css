@@ -22,7 +22,8 @@ header {
   position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
+  width: 100%;
+  z-index: 4;
 }
 
 .header-background {
@@ -43,6 +44,7 @@ header {
   align-items: center;
   justify-content: space-around;
   position: fixed;
+  z-index: 2;
 }
 
 .main-navigation > a {
@@ -238,6 +240,7 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  z-index: 1;
 }
 
 .shop-now:hover {
