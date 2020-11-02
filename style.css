@@ -36,6 +36,10 @@ header {
   letter-spacing: 0.2em;
 }
 
+.main-navigation > a:hover {
+  color: rgb(125, 189, 156);
+}
+
 .main-navigation img {
   padding: 20px;
 }
@@ -137,12 +141,16 @@ p {
 
 .triangle {
   position: absolute;
-  bottom: -195px;
+  margin: 0 245px;
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid white;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid white;
+}
+
+.gallery1-row1-col2-image-container {
+  max-height: 200px;
 }
 
 .twitter {
@@ -174,6 +182,8 @@ p {
 .gallery2 {
   display: flex;
   margin-bottom: 0px;
+  height: 534px;
+    overflow: hidden;
 }
 
 .gallery2-col1 {
@@ -182,7 +192,7 @@ p {
 }
 
 .gallery2-col1-row1 {
-  display: flex;
+    display: flex;
 }
 
 .gallery2-col4 {
@@ -190,19 +200,29 @@ p {
   flex-direction: column;
 }
 
+.gallery2-col4-row1 {
+  max-height: 267px;
+}
+
 .gallery2-col4-row2 {
   display: flex;
+  height: 267px;;
 }
 
 .shop-now {
   background-color: rgba(125, 189, 156, 0.7);
   position: absolute;
-  width: 533px;
-  height: 269px;
+  width: 530px;
+  height: 267px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.shop-now:hover {
+  background-color: rgba(125, 189, 156, 0.9);
+  cursor: pointer;
 }
 
 .shop-now span {
@@ -219,6 +239,7 @@ p {
   justify-content: center;
 }
 
+
 .btn-discover-shop {
   background-color: transparent;
   color: #FEFEFF;
@@ -226,6 +247,11 @@ p {
   letter-spacing: 0.2em;
   font-size: 12px;
   padding: 15px 50px;
+  cursor: pointer;
+}
+
+.btn-discover-shop:hover {
+  background-color: #696C70;
   cursor: pointer;
 }
 
@@ -266,6 +292,11 @@ p {
   color: white;
   width: 75px;
   margin-left: 5px;
+}
+
+.go-button:hover {
+  cursor: pointer;
+  background-color: rgba(125, 189, 156, 0.712);
 }
 
 .email-form {
